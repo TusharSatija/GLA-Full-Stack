@@ -1,0 +1,24 @@
+div{
+    height: 144px;
+    width: 144px;
+    /* thickness type color */
+    border: 3px solid black;
+    border: 3px dotted red;
+    border: 3px dashed rgb(0, 236, 122);
+    /* background: orange; */
+}
+
+p{
+    color: blueviolet;
+}
+
+/* class selector */
+.box{
+    background-color: orange;
+
+}
+/* id selector */
+#para{
+    font-size: 40px;
+}
+
