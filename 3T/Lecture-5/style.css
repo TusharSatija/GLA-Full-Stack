@@ -1,0 +1,9 @@
+div{
+    height: 144px;
+    width: 144px;
+    /* background-color: greenyellow; */
+    /* thickness  type color */
+    border: 2px solid black ;
+    border: 3px dashed yellow;
+    border: 4px dotted lightblue;
+}
