@@ -1,0 +1,11 @@
+/* attribute selector */
+
+input[type="text"]{
+    height: 40px;
+}
+
+div{
+    height: 120px;
+    width: 120px;
+    background-color: red;
+}

@@ -1,0 +1,17 @@
+
+/* decendent combinator  ---->  space --> eg div p  */
+/* child combinator  ----->   >   --->  eg div>p   * /
+/* adjuscent combinator  ----->   +   --->  eg div+p   * /
+/* general sibling combinator  ----->   ~   --->  eg div~p   * /
+article div{
+    color: aqua;
+}
+
+
+div section{
+    color: orange;
+}
+
+p~div{
+    color: blue;
+}

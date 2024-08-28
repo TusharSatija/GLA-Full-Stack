@@ -1,0 +1,18 @@
+
+/* tag selector */
+section{
+    height: 120px;
+    width: 120px;
+    background-color: aqua;
+}
+/* id selector */
+#abc{
+    background-color: orange;
+}
+
+.xyz{
+    background-color: blueviolet;
+}
+
+
+
