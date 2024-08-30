@@ -1,0 +1,12 @@
+#box{
+    height: 140px;
+    width: 140px;
+    border-radius: 14px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.abc{
+    color: orange;
+}
+

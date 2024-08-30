@@ -1,0 +1,21 @@
+
+/* child combinator */
+div>article{
+    color: aqua;
+}
+/* decendent combinator */
+section aside{
+    color: white;
+    background-color: blue;
+}
+
+/* div+p{
+    border: 2px solid orange;
+} */
+
+
+div~p{
+    border: 3px solid red;
+}
+
+
