@@ -1,0 +1,16 @@
+div{
+    display: inline-block;
+    height: 140px;
+    width: 140px;
+    background-color: rebeccapurple;
+}
+
+section{
+    border: 2px solid black;
+}
+#box{
+    top: 50px;
+    left: 50px;
+    position: relative;
+    background-color: orange;
+}

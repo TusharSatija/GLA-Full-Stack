@@ -1,0 +1,11 @@
+article{
+    height: 450px;
+    width: 300px;
+    border: 2px solid black;
+}
+
+article img{
+    height: 250px;
+    width: 280px;
+    border: 2px solid red;
+}
