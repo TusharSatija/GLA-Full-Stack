@@ -1,0 +1,33 @@
+article{
+    border-radius: 20px;
+    height: 650px;
+    width: 445px;
+    border: 2px solid black;
+    margin: 2px auto;
+}
+article img{
+    width: 449px;
+    border-radius: 20px;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-size: 20px;
+}
+footer{
+    margin-top:20px ;
+    height:140px;
+    width: 445px;
+    border-radius:20px ;
+    background-color: orange;
+}
+
+article span{ 
+    display: inline-block;
+    height: 140px;
+    width: 140px;
+    font-size: 30px;
+    text-align: center;
+}
