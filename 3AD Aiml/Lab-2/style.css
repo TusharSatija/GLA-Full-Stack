@@ -1,0 +1,28 @@
+section {
+    border: 2px solid black;
+}
+section div{
+    display:inline-block;
+    height: 150px;
+    width: 150px;
+    background-color: orange;
+}
+#box-2{
+    position: absolute;
+    top: 163px;
+    left:158px;
+}
+#box-3{
+    position: absolute;
+    top: 320px;
+    left: 10px;
+}
+#box-4{
+    position: absolute;
+    top: 320px;
+    left: 308px;
+}
+#box-5{
+    position: absolute;
+    left: 308px;
+}

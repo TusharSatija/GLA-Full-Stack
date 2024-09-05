@@ -1,0 +1,18 @@
+section{
+    border: 2px solid black;
+    height: 1200px;
+}
+
+
+section div{
+    display: inline-block;
+    height: 140px;
+    width: 140px;
+    border: 2px solid red;
+    background-color: cornflowerblue;
+}
+
+#abc{
+    position:fixed;
+    background-color:rgb(48, 242, 44);
+}
