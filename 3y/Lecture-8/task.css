@@ -1,0 +1,32 @@
+section{
+    border: 2px solid red;
+}
+
+div{
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    border: 3px solid black;
+}
+
+#box-1{
+    position: absolute;
+    top: 415px;
+    left: 415px;
+}
+#box-2{
+    position: absolute;
+    top: 215px;
+    left: 210px;
+}
+#box-3{
+    position: absolute;
+    top: 415px;
+    left: 5px;
+}
+#box-4{
+    position: absolute;
+    top: 10px;
+    left: 411px;
+}
