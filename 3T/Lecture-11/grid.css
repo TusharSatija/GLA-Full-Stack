@@ -1,0 +1,11 @@
+article{
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+div{
+    height: 150px;
+    width: 150px;
+    background-color: orange;
+    border: 2px solid black;
+}

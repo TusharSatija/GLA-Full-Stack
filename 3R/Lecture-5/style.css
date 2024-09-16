@@ -1,0 +1,33 @@
+div{
+    height: 140px;
+    width: 140px;
+    /* border-radius: 14px;
+    border-radius: 50%; */
+    margin: 20px;
+    /* top and bottom  -- 2px , left and right- 4px  */
+    margin: 2px 4px;
+    margin: 2px auto;
+    padding: 30px;
+    background-color: orange;
+    border: 2px solid black;
+}
+#box{
+    font-size: 30px;
+    color: aqua;
+}
+
+.para{
+    color: red;
+}
+
+span{
+    /* behaviour -- inline ,  property -- block */
+    display:  inline-block;
+    height: 140px;
+    width: 140px;
+    background-color: orange;
+}
+
+/* 46 absent */
+
+

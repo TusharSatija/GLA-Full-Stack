@@ -1,0 +1,18 @@
+section{
+    height: 90vh;
+    display: flex;
+    justify-content: right;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+}
+
+div{
+    height: 150px;
+    width: 150px;
+    background-color: orange;
+    border: 3px solid red;
+}
