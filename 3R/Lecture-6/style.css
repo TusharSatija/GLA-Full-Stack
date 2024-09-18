@@ -1,0 +1,20 @@
+div{
+    height: 140px;
+    width: 140px;
+    background-color: blue;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    justify-content: right;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
+    align-items: flex-end;
+    align-items: start; */
+    height: 90vh;
+    border: 2px solid black;
+}

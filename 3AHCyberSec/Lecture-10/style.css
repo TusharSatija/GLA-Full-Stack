@@ -1,0 +1,14 @@
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(20,1fr);
+    grid-gap: 30px;
+    border: 2px solid black;
+}
+
+div{
+    height: 140px;
+    width: 140px;
+    background-color: blueviolet;
+    border: 3px solid red;
+}
