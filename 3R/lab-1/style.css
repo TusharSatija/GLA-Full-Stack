@@ -1,0 +1,16 @@
+section{
+    border: 2px solid black;
+}
+div{
+    display:  inline-block;
+    height: 140px;
+    width: 140px;
+    background-color: orange;
+}
+
+#box{
+    position: relative;
+    top: 30px;
+    left: 20px;
+    background-color: blue;
+}
