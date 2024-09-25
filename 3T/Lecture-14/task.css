@@ -1,0 +1,19 @@
+nav{
+    color: white;
+    background-color: black;
+    height: 12rem;
+    font-size: 40px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    list-style: none;
+}
+@media screen  and (max-width:700px) {
+    ul{ 
+        flex-direction: column;
+    }
+}

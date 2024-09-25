@@ -1,0 +1,43 @@
+.f-wheel{
+    position: absolute;
+    top: 155px;
+    left: 93px;
+    height: 150px;
+    width: 150px;
+
+    animation-name: wheel-1;
+    animation-duration: 1ms;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0ms;
+    animation-iteration-count: infinite;
+}
+
+.b-wheel{
+    position: absolute;
+    top: 166px;
+    left: 475px;
+    height: 150px;
+    width: 150px;
+    animation-name: wheel-2;
+    animation-duration: 1ms;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0ms;
+    animation-iteration-count: infinite;
+}
+
+.car{
+    height: 300px;
+    width: 700px;
+}
+
+
+@keyframes  wheel-1{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes  wheel-2{
+    100%{
+        transform: rotate(360deg);
+    }
+}

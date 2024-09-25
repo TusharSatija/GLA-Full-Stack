@@ -1,0 +1,36 @@
+body{
+    height: 90vh;
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+}
+header{
+    background-color: red;
+}
+footer{
+    background-color: blue;
+}
+
+main{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.left{
+    grid-row: 1/3;
+    background-color: orange;
+}
+
+.main-top{
+    background-color: green;
+}
+
+.main-bottom{
+    grid-row: 2/3;
+    background-color: yellow;
+}
+
+.right{
+    grid-row: 1/3;
+    background-color: aqua;
+}

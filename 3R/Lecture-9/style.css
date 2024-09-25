@@ -1,0 +1,19 @@
+div{
+    height: 180px;
+    width: 180px;
+    background-color: orange;
+    border-radius: 50%;
+    margin: auto;
+
+    animation-name: bounce;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0ms;
+    animation-iteration-count: infinite;
+}
+
+@keyframes  bounce{
+    100%{
+        transform: translateY(500px);
+    }
+}

@@ -1,0 +1,12 @@
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-columns: repeat(20,1fr); */
+
+}
+
+div{
+    height: 150px;
+    width: 150px;
+    background-color: orange;
+}

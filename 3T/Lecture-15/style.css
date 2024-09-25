@@ -1,0 +1,29 @@
+div{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border-top: 4px solid black;
+    border-right: 2px solid black;
+    border-bottom: 4px solid black;
+
+    animation-name: page-loader;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: normal ;
+}
+@keyframes page-loader {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+article{ 
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+    align-items:end;
+}
+h1{ 
+    width: 200px;
+    margin: 2px auto;
+}
