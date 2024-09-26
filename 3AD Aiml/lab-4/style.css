@@ -1,0 +1,22 @@
+ul{
+    display: flex;
+    justify-content: left;
+    height: 3rem;
+    color: black;
+}
+
+nav{
+    border: 2px solid black;
+}
+li{ 
+    font-size: 40px;
+    margin-left: 30px;
+    list-style: none;
+}
+
+article{
+    height: 70vh;
+    background-image: url("https://plus.unsplash.com/premium_photo-1726610747143-929ce7517645?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw2fHx8ZW58MHx8fHx8");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
