@@ -1,0 +1,55 @@
+article{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.car{
+    animation-name: move;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 0ms;
+
+}
+@keyframes move {
+    100%{
+        transform: translateY(10px);
+    }
+}
+.f-wheel{
+    position: absolute;
+    top: 320px;
+    left: 410px;
+    height: 130px;
+    width: 130px;
+
+    animation-name: rotate-wheel1;
+    animation-duration: 2ms;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 0ms;
+}
+.b-wheel{
+    animation-name: rotate-wheel2;
+    animation-duration: 2ms;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 0ms;
+    position: absolute;
+    top: 320px;
+    left: 920px;
+    height: 130px;
+    width: 130px;
+}
+@keyframes  rotate-wheel1{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes  rotate-wheel2{
+    100%{
+        transform: rotate(360deg);
+    }
+}

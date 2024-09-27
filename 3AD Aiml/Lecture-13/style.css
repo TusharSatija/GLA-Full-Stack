@@ -1,0 +1,18 @@
+ul{
+    display: flex;
+    justify-content: left;
+}
+
+li{
+    margin-left: 40px;
+    list-style: none;
+}
+
+nav{
+    border: 2px solid red;
+    height: 50vh;    
+    /*  view height */
+    background-image: url("https://images.unsplash.com/photo-1727175401108-6e8bf73ca114?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxNHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-size:cover;
+}

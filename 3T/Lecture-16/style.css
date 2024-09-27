@@ -16,3 +16,26 @@ nav{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+h1{
+   text-align: center; 
+}
+
+p{
+    width: 900px;
+    font-size: 20px;
+    margin: 2px auto;
+    margin-bottom: 40px;
+}
+
+.box{
+    margin: 50px;
+    font-size: 20px;
+    float: right;
+    height: 300px; 
+    width: 700px;     
+}
+
+.img-1{
+    width: 700px;
+}
