@@ -1,44 +1,55 @@
-let arr1=[1,2,3,true,"abc",4785.76,67676];
-console.log(typeof(arr1));
-console.log(arr1);
+// to perform a particular task repeatedly...
 
-arr1.push(false)
-// 8
-// arr1
-// Array(8) [ 1, 2, 3, true, "abc", 4785.76, 67676, false ]
 
-arr1.unshift(10);
-// 9
-// arr1
-// Array(9) [ 10, 1, 2, 3, true, "abc", 4785.76, 67676, false ]
+// add to number  call function
 
-arr1.pop()
-// false
-// arr1
-// Array(8) [ 10, 1, 2, 3, true, "abc", 4785.76, 67676 ]
-
-arr1.shift()
+// ...
+// ... 100 lines 
  
-// Array(7) [ 1, 2, 3, true, "abc", 4785.76, 67676 ]
+// add to number    call function
 
 
-console.table(arr1);
 
-console.log(arr1.reverse());
+function sum(a,b)
+{
+    return a+b;
+}
 
-// join convert array into string;
-let res=arr1.join(",");
-console.log(res);
-console.log(typeof(res));
+console.log(sum(2,5));   // function call
 
-//to convert string into arr
 
-let ans=res.split(",");
+// wap to get sum upto n 
+function sum_upto_n(n)
+{
+     return n*(n+1)/2
+}
+
+console.log(sum_upto_n(5));
+
+
+// wap to get factorial of n
+
+function factorial(n)
+{
+    let fact=1;
+    for(let i=1;i<=n;i++)
+    {
+        fact=fact*i;
+    }
+    return fact;
+}
+console.log(factorial(5));
+
+//  wap to get nCr value  -- >
+    // n!/r!*(n-r)!;
+    // n=5 , r=2
+    // 5!/2!*3!
+
+
+let n=5;
+let r=2;
+let ans= factorial(n)/(factorial(r)*factorial(n-r));
 console.log(ans);
-console.log(typeof(ans));
 
-
-let arr2=[10,20,30,40];
-let data=arr1.concat(arr2);
-console.log(data);
-console.log(typeof(data));
+// let res=prompt("enter your name");
+// console.log(res);
